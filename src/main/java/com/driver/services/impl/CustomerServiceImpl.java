@@ -48,7 +48,7 @@ public class CustomerServiceImpl implements CustomerService {
 
 		for(Driver driver: driverList){
 
-			if(driver.getCab().isAvailable()){
+			if(driver.getCab().getAvailable()){
 				TripBooking tripBooking = new TripBooking();
 				tripBooking.setFromLocation(fromLocation);
 				tripBooking.setToLocation(toLocation);

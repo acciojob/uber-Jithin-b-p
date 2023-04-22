@@ -38,7 +38,7 @@ public class Admin{
         this.adminId = adminId;
     }
 
-    public void setUserName(String userName) {
+    public void setUsername(String userName) {
         this.userName = userName;
     }
 
