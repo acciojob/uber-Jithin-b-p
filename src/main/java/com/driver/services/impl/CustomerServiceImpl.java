@@ -65,7 +65,7 @@ public class CustomerServiceImpl implements CustomerService {
 			}
 		}
 
-		throw new Exception("No Cab available!");
+		throw new Exception("No cab available!");
 
 
 
